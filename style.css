@@ -1208,187 +1208,50 @@ text-decoration: none;
     border-radius: 20px;
 }
 
-/* ========= Tablet (<=1024px) ========= */
-@media (max-width: 1024px) {
-  /* Scale rem-based spacing down so your absolute positions shrink proportionally */
-  html { font-size: 12px; }
-  body { overflow-x: hidden; }
-
-  /* Big media should fluidly fit */
-  img, .lib { max-width: 100%; height: auto; }
-
-  /* Slightly smaller nav text without changing your layout */
-  .head3 a { font-size: 1.1rem; }
-
-  /* Give main content a little breathing room */
-  .mid, .qlink { width: 94% !important; margin-left: 3% !important; }
-
-  /* Head area: keep layout but reduce text sizes a touch */
-  .webtxt1, .webtxt2, .webtxt3 { font-size: 18px; }
-  .edutxt { font-size: 18px; }
-}
-
-/* ========= Mobile (<=600px) ========= */
-@media (max-width: 600px) {
-  /* Stronger rem scale so your absolute offsets fit on narrow screens */
-  html { font-size: 5px; }
-  body { overflow-x: hidden; }
-  img, .lib { max-width: 100%; height: auto; display: block; }
-
-  /* ---- Top headbar ---- */
-  .headbar { position: relative; }
-  .calllogo, .cont, .FB, .X, .YT {
-    margin: 0 !important;
-  }
-  .calllogo { position: absolute; left: 1rem; top: 1.4rem; }
-  .cont     { position: absolute; left: 4.5rem; top: 1.2rem; font-size: 10px; }
-  /* Place social icons to the right edge of headbar */
-  .FB, .X, .YT { position: absolute; top: 1.2rem; }
-  .YT { right: 1rem; }
-  .X  { right: 5rem; }
-  .FB { right: 9rem; }
-
-  /* ---- Header 2 (logo + text) ---- */
-  .head2 { text-align: center; height: auto; padding: 1rem 0; }
-  .weblog, .webtxt1, .webtxt2, .webtxt3, .edulogo, .edutxt {
-    position: static !important;
-    margin: 0.4rem auto !important;
-    display: block !important;
-    text-align: center !important;
-  }
-  .weblog { height: 80px; width: 80px; }
-  .webtxt1, .webtxt2, .webtxt3, .edutxt { font-size: 16px !important; }
-
-  /* ---- Main nav (stack vertically) ---- */
-  .head3 {
-    position: relative !important;
-    height: auto !important;
-    padding: 1rem 0;
-    background-color: #2A2793;
-  }
-  .home, .abt, .blog, .course, .gall, .affil, .for, .contus {
-    position: static !important;
-    margin: 0.4rem 0 !important;
-    display: block !important;
-    text-align: center !important;
-  }
-  .head3 a { font-size: 13px !important; }
-
-  /* ---- Left enquiry box + form ---- */
-  .enquiry, .form {
-    position: static !important;
-    width: 92% !important;
-    height: auto !important;
-    margin: 1rem auto !important;
-  }
-  .eqtxt, .name, .lastname, .email, .country {
-    position: static !important;
-    margin: 0.6rem 0 0.2rem 0 !important;
-    text-align: left;
-  }
-  .name1, .lastname1, .email1, .country1 { width: 100% !important; box-sizing: border-box; }
-  .sub { margin: 1rem auto !important; display: block; }
-
-  /* ---- Middle content card ---- */
-  .mid {
-    position: static !important;
-    width: 92% !important;
-    height: auto !important;
-    margin: 1rem auto !important;
-  }
-  .midtxt1 { font-size: 22px !important; margin: 1rem 0 0 0 !important; text-align: center; }
-  .midtxt2 { font-size: 12px !important; margin: 0.6rem 0 0 0 !important; text-align: center; }
-  .readmore { position: static !important; margin: 0.8rem auto !important; display: block; text-align: center; }
-  .line { width: 90% !important; margin: 1rem auto !important; }
-
-  /* Affiliation icons/text inside .mid */
-  .af1, .af2, .af3, .af4, .sp, .ssp, .sv, .bfs {
-    position: static !important;
-    margin: 0.4rem auto !important;
-    display: block;
-    text-align: center;
-  }
-
-  /* ---- Right quick links panel ---- */
-  .qlink {
-    position: static !important;
-    width: 92% !important;
-    margin: 1rem auto !important;
-    background: whitesmoke;
-    height: auto !important;
-  }
-  .ql { width: 92% !important; margin: 1rem auto !important; }
-  .admit, .enroll, .study, .study2, .down, .news {
-    position: static !important;
-    width: 92% !important;
-    margin: 0.6rem auto !important;
-  }
-
-  /* ---- Middle three columns (midsec) ---- */
-  .midd { height: auto !important; }
-  .midop { position: static !important; margin: 1rem 0 !important; text-align: center; }
-  .midsec, .midsec2, .midsec3 {
-    position: static !important;
-    width: 92% !important;
-    height: auto !important;
-    margin: 1rem auto !important;
-  }
-  .cap { margin: 1rem auto !important; display: block; }
-  .sectxt, .sectxt2, .ssectxt, .ssectxt2, .vtxt, .vtxt2 {
-    margin: 0.4rem 0 !important; text-align: center !important;
-  }
-
-  /* ---- Admission blocks ---- */
-  .admiss, .admisstxt, .admisstxt2 { margin: 1rem 0 !important; }
-  .block, .block2 {
+/* 📌 Mobile Fix */
+@media (max-width: 768px) {
+  /* Reset ALL absolute elements to normal flow */
+  .home, .aboutus, .services, .project, .media, .contactus,
+  .mid, .qlink, .f1, .f2, .f3, .enquiry, .form,
+  .webtxt1, .webtxt2, .webtxt3, .edutxt,
+  .block, .block2, .git, .quik, .ourprog {
     position: static !important;
     width: 100% !important;
-    height: auto !important;
-  }
-  .bl, .bl2 {
-    position: static !important;
-    width: 88% !important;
-    margin: 1rem auto !important;
-  }
-  .btext, .btext1, .btext2, .b2text, .b2text1, .b2text2, .from { text-align: center !important; }
-
-  .rm, .rmx { position: static !important; display: block !important; margin: 1rem auto !important; text-align: center !important; }
-  .line1, .midline, .lineeq { height: 3px; margin: 1rem auto; width: 90% !important; }
-
-  /* ---- Enquiry steps list ---- */
-  .eqlist, .eqline, .eqr {
-    position: static !important;
-    width: 92% !important;
-    margin: 0.8rem auto !important;
-    text-align: center !important;
-  }
-  .arrow, .arrow2, .arrow3, .arrowtxt1, .arrowtxt2, .arrowtxt3 {
-    position: static !important;
-    display: block !important;
-    margin: 0.5rem auto !important;
-    text-align: center !important;
-  }
-
-  /* ---- Footer sections stacked ---- */
-  .footer { height: auto !important; padding-bottom: 2rem; }
-  .eqq { height: auto !important; }
-
-  .git, .quik, .ourprog {
-    position: static !important;
-    width: 92% !important;
-    margin: 1rem auto !important;
-    height: auto !important;
-  }
-
-  .f1, .fi, .ftxt, .f2, .f2txt, .f3, .f3txt, .f4, .f4txt, .f5, .f5txt, .f6, .f6txt,
-  .q, .vm, .admn, .comi, .blog2, .contct, .smap, .Recapp, .rti, .pp, .np,
-  .ourp, .pgms, .soe, .seclvl, .sve, .srsl, .cc {
-    position: static !important;
-    display: block !important;
     margin: 0.5rem 0 !important;
+    text-align: center !important;
   }
 
-  .instajpg, .fbjpg, .twitjpg, .linkjpg {
-    display: inline-block;
-    margin: 0.3rem 0.3rem !important;
-  }}
+  /* Navigation bar turns vertical */
+  .head3 {
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 0;
+  }
+  .head3 a {
+    font-size: 14px !important;
+  }
+
+  /* Images shrink properly */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Forms full width */
+  input, select, textarea, button {
+    width: 100% !important;
+    box-sizing: border-box;
+    margin: 0.4rem 0 !important;
+  }
+
+  /* Footer stacked */
+  .footer, .f1, .f2, .f3 {
+    display: block !important;
+    text-align: center !important;
+    width: 100% !important;
+    margin: 1rem 0 !important;
+  }
+}
