@@ -1,0 +1,1394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headbar {
+    height: 50px;
+    width: 100%;
+    background-color: #2A2793;
+    color: white;
+}
+
+.calllogo {
+    height: 15px;
+    width: 15px;
+    margin-top: 15px;
+    margin-left: 45px;
+    position: absolute;
+}
+
+.cont {
+    margin-top: 13px;
+    margin-left: 70px;
+    font-weight: 500;
+    position: absolute;
+}
+
+.FB {
+    height: 22px;
+    width: 22px;
+    margin-top: 15px;
+    margin-left: 64rem;
+    position: absolute;
+}
+
+.X {
+    height: 23px;
+    width: 23px;
+    margin-top: 15px;
+    margin-left: 67rem;
+    position: absolute;
+}
+
+.YT {
+   height: 24px;
+    width: 24px;
+    margin-top: 14px;
+    margin-left: 70rem;
+}
+
+.head2 {
+    height: 115px;
+    width: 100%;
+}
+
+.weblog {
+    height: 95px;
+    width: 95px;
+    margin-top: 9px;
+    margin-left: 43px;
+    position: absolute;
+}
+
+.webtxt1 {
+    margin-top: 28px;
+    margin-left: 132px;
+    position: absolute;
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.webtxt2 {
+    margin-top: 48px;
+    margin-left: 133px;
+    position: absolute;
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.webtxt3 {
+    margin-top: 72px;
+    margin-left: 133px;
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+}
+
+.edulogo {
+    margin-left: 47rem;
+    margin-top: 2px;
+    position: absolute
+}
+
+.edutxt {
+    margin-top: 45px;
+    margin-left: 56rem;
+    color: #C8102E;
+    font-weight: bold;
+    position: absolute;
+}
+
+.head3 {
+    height: 45px;
+    width: 100%;
+    background-color: #2A2793;
+}
+
+.head3 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home {
+    margin-top: 13px;
+    margin-left: 10rem;
+    position: absolute;
+}
+
+.abt {
+    margin-top: 13px;
+    margin-left: 17rem;
+    position: absolute;
+}
+
+.blog {
+    margin-top: 13px;
+    margin-left: 26rem;
+    position: absolute;
+}
+
+.course {
+    margin-top: 13px;
+    margin-left: 34rem;
+    position: absolute;
+}
+
+.gall {
+    margin-top: 13px;
+    margin-left: 42rem;
+    position: absolute;
+}
+
+.affil {
+    margin-top: 13px;
+    margin-left: 50rem;
+    position: absolute;
+}
+
+.for {
+    margin-top: 13px;
+    margin-left: 59rem;
+    position: absolute;
+}
+
+.contus {
+    margin-top: 13px;
+    margin-left: 68rem;
+    position: absolute;
+}
+
+.lib {
+    height: 32rem;
+    width: 100%;
+    display: block;
+}
+
+.marq {
+    background-color: #C8102E;
+    color: white;
+    height: 35px;
+    width: 100%;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enquiry {
+    background-color: #2A2793;
+    height: 30rem;
+    width: 16rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    position: absolute;
+}
+
+.form {
+    height: 29rem;
+    width: 14rem;
+    margin-top: 10px;
+    margin-left: 16px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    align-items: center;
+}
+
+.eqtxt {
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.name {
+    margin-top: 25px;
+    margin-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-weight: 600;
+}
+
+.name1 {
+    padding: 10px 10px;
+    margin-top: 45px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border-color: whitesmoke;
+}
+
+.lastname {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-weight: 600;
+}
+
+.lastname1 {
+    padding: 10px 10px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border-color: whitesmoke;
+}
+
+.email {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-weight: 600;
+}
+
+.email1 {
+    padding: 10px 10px;
+    margin-top: 45px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border-color: whitesmoke;
+}
+
+.country {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-weight: 600;
+}
+
+.country1 {
+    padding: 10px 52px;
+    margin-top: 45px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: groove;
+}
+
+.sub {
+    margin-top: 20px;
+    margin-left: 68px;
+    height: 25px;
+    width: 70px;
+    border-radius: 10px;
+    border: none;
+    background-color: #004aad;
+    color: white;
+}
+
+
+.mid {
+    height: 29rem;
+    width: 45rem;
+    margin-left: 21rem;
+    position: absolute;
+}
+
+.midtxt1 {
+    font-family: "Cookie", cursive;
+    font-weight: bolder;
+    font-size: 28px;
+    margin-top: 15px;
+    margin-left: 3.7rem;
+}
+
+.midtxt2 {
+    font-size: 15px;
+    margin-left: 18px;
+    margin-top: 14px;
+}
+
+.readmore {
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 250px;
+    font-family: sans-serif;
+    color: #004aad;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.line {
+    width: 38rem;
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+}
+
+.mid a {
+    text-decoration: none;
+}
+
+.af1 {
+    height: 50px;
+    width: 50px;
+    margin-top: 3rem;
+    position: absolute;
+}
+
+.sp {
+    margin-top: 4rem;
+    margin-left: 4rem;
+    position: absolute;
+    font-weight: bolder;
+    color: #004aad;
+    font-size: 19px;
+}
+
+.af2 {
+    height: 50px;
+    width: 50px;
+    margin-top: 3rem;
+    margin-left: 17rem;
+    position: absolute;
+}
+
+.ssp {
+    margin-top: 4rem;
+    margin-left: 21rem;
+    position: absolute;
+    font-weight: bolder;
+    color: #004aad;
+    font-size: 19px;
+}
+
+.af3 {
+    height: 50px;
+    width: 50px;
+    margin-top: 10rem;
+    position: absolute;
+}
+
+.sv {
+    margin-top: 11rem;
+    margin-left: 4rem;
+    font-weight: bolder;
+    position: absolute;
+    color: #004aad;
+    font-size: 19px;
+}
+
+.af4 {
+    height: 50px;
+    width: 50px;
+    margin-top: 10rem;
+    margin-left: 17rem;
+}
+
+.bfs {
+    margin-top: 11rem;
+    margin-left: 1rem;
+    font-weight: bolder;
+    position: absolute;
+    color: #004aad;
+    font-size: 19px;
+}
+
+.qlink {
+    height: 29rem;
+    width: 17rem;
+    margin-left: 62rem;
+    margin-top: 4rem;
+    background-color: whitesmoke;
+}
+
+.ql {
+    background-color: #2A2793;
+    color: white;
+    width: 250px;
+    height: 50px;
+    margin-left: 10.5px;
+    margin-top: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admit {
+    position: absolute;
+    background-color: #2A2793;
+    color: white;
+    font-weight: bolder;
+    height: 40px;
+    width: 170px;
+    margin-top: 2rem;
+    margin-left: 57px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pdf {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.enroll {
+    position: absolute;
+    background-color: #2A2793;
+    color: white;
+    font-weight: bolder;
+    height: 40px;
+    width: 170px;
+    margin-top: 85px;
+    margin-left: 57px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.study {
+    position: absolute;
+    background-color: #2A2793;
+    color: white;
+    font-weight: bolder;
+    height: 40px;
+    width: 170px;
+    margin-top: 140px;
+    margin-left: 57px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ques {
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+}
+
+.study2 {
+    position: absolute;
+    background-color: #2A2793;
+    color: white;
+    font-weight: bolder;
+    height: 40px;
+    width: 170px;
+    margin-top: 195px;
+    margin-left: 57px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book {
+    height: 20px;
+    width: 20px;
+    margin-right: 11px;
+}
+
+.down {
+    position: absolute;
+    background-color: #2A2793;
+    color: white;
+    font-weight: bolder;
+    height: 40px;
+    width: 170px;
+    margin-top: 250px;
+    margin-left: 57px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down1 {
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+
+.news {
+    position: absolute;
+    background-color: #2A2793;
+    color: white;
+    font-weight: bolder;
+    height: 40px;
+    width: 170px;
+    margin-top: 305px;
+    margin-left: 57px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news1 {
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+
+.midline {
+    background-color: #2A2793;
+    margin-top: 3rem;
+    height: 3px;
+}
+
+.midd {
+    width: 100%;
+    height: 340px;
+    background-color: whitesmoke;
+}
+
+.midop {
+    margin-top: 1rem;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    margin-left: 600px;
+}
+
+.midsec {
+    height: 19rem;
+    width: 27rem;
+    position: absolute;
+}
+
+.cap {
+    height: 80px;
+    width: 80px;
+    margin-left: 12rem;
+    margin-top: 5rem;
+}
+
+.sectxt {
+    margin-left: 185px;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.sectxt2 {
+    margin-top: 5px;
+    margin-left: 35px;
+    text-align: center;
+}
+
+.midsec2 {
+    height: 19rem;
+    width: 27rem;
+    position: absolute;
+    margin-left: 28rem;
+}
+
+.ssectxt {
+    margin-left: 150px;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.ssectxt2 {
+    margin-top: 5px;
+    margin-left: 35px;
+    text-align: center;
+}
+
+.midsec3 {
+    height: 19rem;
+    width: 27rem;
+    margin-left: 56rem;
+}
+
+.vtxt {
+    margin-left: 180px;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.vtxt2 {
+    margin-top: 5px;
+    margin-left: 35px;
+    text-align: center;
+}
+
+.end {
+    background-color: #2A2793;
+    height: 3px;
+}
+
+.admiss {
+    color: #2A2793;
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.admisstxt {
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.block {
+    position: absolute;
+    height: 15rem;
+    width: 50%;
+}
+
+.bl {
+    height: 12rem;
+    width: 12rem;
+    position: absolute;
+    background-color: aquamarine;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.btext {
+    color: #004aad;
+    margin-top: 24px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.from {
+    text-align: center;
+    font-size: small;
+}
+
+
+.btext1 {
+    font-size: small;
+    text-align: center;
+}
+
+.btext2 {
+    font-size: medium;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.block2 {
+    height: 15rem;
+    width: 50%;
+    margin-left: 42.2rem;
+}
+
+.bl2 {
+    height: 12rem;
+    width: 12rem;
+    position: absolute;
+    background-color: antiquewhite;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.b2text {
+    color: #004aad;
+    margin-top: 24px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.from {
+    text-align: center;
+    font-size: small;
+}
+
+.b2text1 {
+    font-size: small;
+    text-align: center;
+}
+
+.b2text2 {
+    font-size: medium;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.admisstxt2 {
+    margin-top: 4rem;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.rm {
+    text-decoration: none;
+    text-align: center;
+    color: #004aad;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 40rem;
+}
+
+.line1 {
+    background-color: #2A2793;
+    height: 3px;
+    margin-top: 3rem;
+}
+
+.eqr {
+    position: absolute;
+    margin-top: 1rem;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 502px;
+}
+
+.eqlist {
+    height: 19rem;
+    width: 100%;
+}
+
+.eqline {
+    margin-top: 42px;
+    width: 360px;
+    position: absolute;
+    margin-left: 31rem;
+}
+
+.arrow {
+    height: 50px;
+    width: 50px;
+    margin-top: 5rem;
+    margin-left: 4rem;
+    position: absolute;
+}
+
+.arrowtxt1 {
+    margin-top: 85px;
+    margin-left: 123px;
+    position: absolute;
+}
+
+.arrow2 {
+    height: 50px;
+    width: 50px;
+    margin-top: 9rem;
+    margin-left: 4rem;
+    position: absolute;
+}
+
+.arrowtxt2 {
+    margin-top: 158px;
+    margin-left: 123px;
+    position: absolute;
+}
+
+.arrow3 {
+    height: 50px;
+    width: 50px;
+    margin-top: 13rem;
+    margin-left: 4rem;
+    position: absolute;
+}
+
+.arrowtxt3 {
+    margin-top: 220px;
+    margin-left: 123px;
+    position: absolute;
+}
+
+.rmx {
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 40rem;
+    margin-top: 17rem;
+    color: #004aad;
+    position: absolute
+}
+
+.lineeq {
+    background-color: #004aad;
+    height: 3px;
+}
+
+.footer {
+    width: 100%;
+    height: 35rem;
+    margin-top: 3rem;
+    background-color: #2A2793;
+}
+
+.eqq {
+    width: 100%;
+    height: 305px;
+    background-color: whitesmoke;
+}
+
+.git {
+    height: 28rem;
+    width: 31rem;
+    position: absolute;
+}
+
+.f1 {
+    font-weight: bolder;
+    font-family: monospace;
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+}
+
+.fi {
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.ftxt {
+    font-family: monospace;
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 4.6rem;
+    margin-left: 7rem;
+    font-size: 17px;
+}
+
+.f2 {
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    margin-top: 9rem;
+    margin-left: 5rem;
+}
+
+.f2txt {
+    font-family: monospace;
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 8.6rem;
+    margin-left: 7rem;
+    font-size: 17px;
+}
+
+.f2 {
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    margin-top: 9rem;
+    margin-left: 5rem;
+}
+
+.f2txt {
+    font-family: monospace;
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 8.6rem;
+    margin-left: 7rem;
+    font-size: 17px;
+}
+
+.f3 {
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    margin-top: 13rem;
+    margin-left: 5rem;
+}
+
+.f3txt {
+    font-family: monospace;
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 13rem;
+    margin-left: 7rem;
+    font-size: 17px;
+}
+
+.f4 {
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    margin-top: 17rem;
+    margin-left: 5rem;
+}
+
+.f4txt {
+    font-family: monospace;
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 17rem;
+    margin-left: 7rem;
+    font-size: 17px;
+}
+
+.f5 {
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    margin-top: 21rem;
+    margin-left: 5rem;
+}
+
+.f5txt {
+    font-family: monospace;
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 21rem;
+    margin-left: 7rem;
+    font-size: 17px;
+}
+
+.f6 {
+    position: absolute;
+    height: 23px;
+    width: 42px;
+    margin-top: 25rem;
+    margin-left: 4.3rem;
+}
+
+.f6txt {
+    font-family: monospace;
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 25rem;
+    margin-left: 7rem;
+    font-size: 17px;
+}
+
+.quik {
+    height: 28rem;
+    width: 28rem;
+    position: absolute;
+    margin-left: 35rem;
+}
+
+.q {
+    font-weight: bolder;
+    font-family: monospace;
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+}
+
+.vm {
+   text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 4rem;
+    margin-left: 86px;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.admn {
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 6rem;
+    margin-left: 86px;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.comi {
+text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 8rem;
+    margin-left: 86px;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.blog2 {
+text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 10rem;
+    margin-left: 86px;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.contct {
+text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 12rem;
+    margin-left: 86px;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.smap {
+text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 14rem;
+    margin-left: 86px;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.Recapp {
+text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 16rem;
+    margin-left: 86px;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.rti {
+text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 18rem;
+    margin-left: 86px;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.pp {
+text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 20rem;
+    margin-left: 86px;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.np {
+text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 22rem;
+    margin-left: 86px;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.ourprog {
+    height: 28rem;
+    width: 28rem;
+    margin-left: 55rem;
+}
+
+.ourp {
+ font-family: monospace;
+ font-weight: bolder;
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    margin-top: 1.5rem;
+    margin-left: 5rem;   
+}
+
+.pgms {
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 4rem;
+    margin-left: 86px;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.soe {
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 6rem;
+    margin-left: 86px;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.seclvl {
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 8rem;
+    margin-left: 86px;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.sve {
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 10rem;
+    margin-left: 86px;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.srsl {
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 12rem;
+    margin-left: 86px;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.cc {
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    margin-top: 14rem;
+    margin-left: 86px;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.brandslogo {
+    height: 20rem;
+    width: 20rem;
+    background-color: aquamarine;
+}
+
+.instajpg {
+    height: 40px;
+    width: 42px;
+    border-radius: 20px;
+    margin-left: 5rem;
+}
+
+.fbjpg {
+    height: 40px;
+    width: 42px;
+    margin-left: 2px;
+    border-radius: 20px;
+}
+
+.twitjpg {
+    height: 40px;
+    width: 42px;
+    margin-left: 2px;
+    border-radius: 20px;
+}
+
+.linkjpg {
+    height: 40px;
+    width: 42px;
+    margin-top: 1rem;
+    margin-left: 2px;
+    border-radius: 20px;
+}
+
+/* ========= Tablet (<=1024px) ========= */
+@media (max-width: 1024px) {
+  /* Scale rem-based spacing down so your absolute positions shrink proportionally */
+  html { font-size: 12px; }
+  body { overflow-x: hidden; }
+
+  /* Big media should fluidly fit */
+  img, .lib { max-width: 100%; height: auto; }
+
+  /* Slightly smaller nav text without changing your layout */
+  .head3 a { font-size: 1.1rem; }
+
+  /* Give main content a little breathing room */
+  .mid, .qlink { width: 94% !important; margin-left: 3% !important; }
+
+  /* Head area: keep layout but reduce text sizes a touch */
+  .webtxt1, .webtxt2, .webtxt3 { font-size: 18px; }
+  .edutxt { font-size: 18px; }
+}
+
+/* ========= Mobile (<=600px) ========= */
+@media (max-width: 600px) {
+  /* Stronger rem scale so your absolute offsets fit on narrow screens */
+  html { font-size: 5px; }
+  body { overflow-x: hidden; }
+  img, .lib { max-width: 100%; height: auto; display: block; }
+
+  /* ---- Top headbar ---- */
+  .headbar { position: relative; }
+  .calllogo, .cont, .FB, .X, .YT {
+    margin: 0 !important;
+  }
+  .calllogo { position: absolute; left: 1rem; top: 1.4rem; }
+  .cont     { position: absolute; left: 4.5rem; top: 1.2rem; font-size: 10px; }
+  /* Place social icons to the right edge of headbar */
+  .FB, .X, .YT { position: absolute; top: 1.2rem; }
+  .YT { right: 1rem; }
+  .X  { right: 5rem; }
+  .FB { right: 9rem; }
+
+  /* ---- Header 2 (logo + text) ---- */
+  .head2 { text-align: center; height: auto; padding: 1rem 0; }
+  .weblog, .webtxt1, .webtxt2, .webtxt3, .edulogo, .edutxt {
+    position: static !important;
+    margin: 0.4rem auto !important;
+    display: block !important;
+    text-align: center !important;
+  }
+  .weblog { height: 80px; width: 80px; }
+  .webtxt1, .webtxt2, .webtxt3, .edutxt { font-size: 16px !important; }
+
+  /* ---- Main nav (stack vertically) ---- */
+  .head3 {
+    position: relative !important;
+    height: auto !important;
+    padding: 1rem 0;
+    background-color: #2A2793;
+  }
+  .home, .abt, .blog, .course, .gall, .affil, .for, .contus {
+    position: static !important;
+    margin: 0.4rem 0 !important;
+    display: block !important;
+    text-align: center !important;
+  }
+  .head3 a { font-size: 13px !important; }
+
+  /* ---- Left enquiry box + form ---- */
+  .enquiry, .form {
+    position: static !important;
+    width: 92% !important;
+    height: auto !important;
+    margin: 1rem auto !important;
+  }
+  .eqtxt, .name, .lastname, .email, .country {
+    position: static !important;
+    margin: 0.6rem 0 0.2rem 0 !important;
+    text-align: left;
+  }
+  .name1, .lastname1, .email1, .country1 { width: 100% !important; box-sizing: border-box; }
+  .sub { margin: 1rem auto !important; display: block; }
+
+  /* ---- Middle content card ---- */
+  .mid {
+    position: static !important;
+    width: 92% !important;
+    height: auto !important;
+    margin: 1rem auto !important;
+  }
+  .midtxt1 { font-size: 22px !important; margin: 1rem 0 0 0 !important; text-align: center; }
+  .midtxt2 { font-size: 12px !important; margin: 0.6rem 0 0 0 !important; text-align: center; }
+  .readmore { position: static !important; margin: 0.8rem auto !important; display: block; text-align: center; }
+  .line { width: 90% !important; margin: 1rem auto !important; }
+
+  /* Affiliation icons/text inside .mid */
+  .af1, .af2, .af3, .af4, .sp, .ssp, .sv, .bfs {
+    position: static !important;
+    margin: 0.4rem auto !important;
+    display: block;
+    text-align: center;
+  }
+
+  /* ---- Right quick links panel ---- */
+  .qlink {
+    position: static !important;
+    width: 92% !important;
+    margin: 1rem auto !important;
+    background: whitesmoke;
+    height: auto !important;
+  }
+  .ql { width: 92% !important; margin: 1rem auto !important; }
+  .admit, .enroll, .study, .study2, .down, .news {
+    position: static !important;
+    width: 92% !important;
+    margin: 0.6rem auto !important;
+  }
+
+  /* ---- Middle three columns (midsec) ---- */
+  .midd { height: auto !important; }
+  .midop { position: static !important; margin: 1rem 0 !important; text-align: center; }
+  .midsec, .midsec2, .midsec3 {
+    position: static !important;
+    width: 92% !important;
+    height: auto !important;
+    margin: 1rem auto !important;
+  }
+  .cap { margin: 1rem auto !important; display: block; }
+  .sectxt, .sectxt2, .ssectxt, .ssectxt2, .vtxt, .vtxt2 {
+    margin: 0.4rem 0 !important; text-align: center !important;
+  }
+
+  /* ---- Admission blocks ---- */
+  .admiss, .admisstxt, .admisstxt2 { margin: 1rem 0 !important; }
+  .block, .block2 {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+  .bl, .bl2 {
+    position: static !important;
+    width: 88% !important;
+    margin: 1rem auto !important;
+  }
+  .btext, .btext1, .btext2, .b2text, .b2text1, .b2text2, .from { text-align: center !important; }
+
+  .rm, .rmx { position: static !important; display: block !important; margin: 1rem auto !important; text-align: center !important; }
+  .line1, .midline, .lineeq { height: 3px; margin: 1rem auto; width: 90% !important; }
+
+  /* ---- Enquiry steps list ---- */
+  .eqlist, .eqline, .eqr {
+    position: static !important;
+    width: 92% !important;
+    margin: 0.8rem auto !important;
+    text-align: center !important;
+  }
+  .arrow, .arrow2, .arrow3, .arrowtxt1, .arrowtxt2, .arrowtxt3 {
+    position: static !important;
+    display: block !important;
+    margin: 0.5rem auto !important;
+    text-align: center !important;
+  }
+
+  /* ---- Footer sections stacked ---- */
+  .footer { height: auto !important; padding-bottom: 2rem; }
+  .eqq { height: auto !important; }
+
+  .git, .quik, .ourprog {
+    position: static !important;
+    width: 92% !important;
+    margin: 1rem auto !important;
+    height: auto !important;
+  }
+
+  .f1, .fi, .ftxt, .f2, .f2txt, .f3, .f3txt, .f4, .f4txt, .f5, .f5txt, .f6, .f6txt,
+  .q, .vm, .admn, .comi, .blog2, .contct, .smap, .Recapp, .rti, .pp, .np,
+  .ourp, .pgms, .soe, .seclvl, .sve, .srsl, .cc {
+    position: static !important;
+    display: block !important;
+    margin: 0.5rem 0 !important;
+  }
+
+  .instajpg, .fbjpg, .twitjpg, .linkjpg {
+    display: inline-block;
+    margin: 0.3rem 0.3rem !important;
+  }}
