@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
 .headbar {
     height: 50px;
     width: 100%;
@@ -1208,3 +1218,10 @@ text-decoration: none;
     border-radius: 20px;
 
 }
+
+@media (max-width: 768px) {
+    .container, sidebar, .content {
+        width: 100% !important;
+        float: none !important;
+    }
+    
