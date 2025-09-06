@@ -1214,3 +1214,74 @@ text-decoration: none;
         width: 100%;
     }
 }
+
+/* 📱 Responsive Fix Patch */
+@media (max-width: 1024px) {
+    /* Reset absolute positions */
+    .FB, .X, .YT,
+    .weblog, .webtxt1, .webtxt2, .webtxt3,
+    .edulogo, .edutxt,
+    .home, .abt, .blog, .course, .gall, .affil, .for, .contus,
+    .mid, .qlink, .enquiry {
+        position: static !important;
+        margin: 10px auto !important;
+        display: block;
+        text-align: center;
+    }
+
+    /* Navbar */
+    .head3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto !important;
+        padding: 10px 0;
+    }
+    .head3 a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    /* Forms & sections */
+    img, .lib, .form, .enquiry, .qlink, .mid, .midsec, .midsec2, .midsec3, 
+    .block, .block2, .git, .quik, .ourprog {
+        width: 95% !important;
+        height: auto !important;
+        margin: 10px auto !important;
+    }
+
+    /* Text fixes */
+    .midtxt1, .midtxt2, .sectxt, .ssectxt, .vtxt, 
+    .admiss, .admisstxt, .btext, .b2text {
+        text-align: center !important;
+        margin: 10px auto !important;
+        font-size: 14px;
+    }
+
+    /* Footer */
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto !important;
+        padding: 20px;
+    }
+    .git, .quik, .ourprog {
+        margin: 15px auto !important;
+    }
+}
+
+@media (max-width: 600px) {
+    /* Even smaller screens */
+    .head3 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .head3 a {
+        display: block;
+        margin: 5px 0;
+    }
+    .midtxt1, .midtxt2, .sectxt, .ssectxt, .vtxt {
+        font-size: 12px !important;
+    }
+}
