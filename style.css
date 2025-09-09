@@ -1207,3 +1207,8 @@ text-decoration: none;
     margin-left: 2px;
     border-radius: 20px;
 }
+
+.body {
+    width: 100%;
+    height: 193rem;
+}
